@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+n# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -25,7 +25,7 @@ author:
   name             : # name
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Data Science"
-  location         : "" # location
+  location         : "Germany" # location
   employer         : "Helmholtz Munich"
   uri              : # url
   email            : "alexander.kipnis@helmholtz-munich.de" 
