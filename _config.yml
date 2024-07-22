@@ -25,7 +25,7 @@ author:
   name             : # name
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Data Science"
-  location         : # location
+  location         : "" # location
   employer         : "Helmholtz Munich"
   uri              : # url
   email            : "alexander.kipnis@helmholtz-munich.de" 
