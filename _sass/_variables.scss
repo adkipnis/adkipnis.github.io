@@ -60,6 +60,7 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
+$purple                     : #8552c8
 
 $body-color                 : #fff;
 $background-color           : #fff;
@@ -106,7 +107,7 @@ $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : mix(#fff, $purple, 25%);
 
 
 /*
