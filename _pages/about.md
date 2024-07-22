@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: ""
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Research
-======
-Test test test
+I have a background in psychology & neuroscience (Heidelberg University & LMU Munich) as well as in statistics & machine learning (LMU Munich & Tübingen University) and like hacking away at large datasets. In my research, I'm interested in the intersection of machine and human intelligence, especially in the form of inductive inference and deep reinforcement learning. 
 
 Publications
 ======
