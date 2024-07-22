@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "me.jpeg"
   name             : # name
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "she/her"
   bio              : "PhD Student in Data Science"
   location         : "Germany" # location
   employer         : "Helmholtz Munich"
