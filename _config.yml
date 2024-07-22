@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "Alex Kipnis"
 title_separator          : "-"
-name                     : &name ""
-description              : &description "PhD Student in Data Science @ Helmholtz Munich"
+name                     : &name "Alex Kipnis"
+description              : &description "My Website"
 url                      : https://adkipnis.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "adkipnis/adkipnis.github.io"
@@ -22,13 +22,13 @@ repository               : "adkipnis/adkipnis.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : ""
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "PhD Student in Data Science"
+  location         : "Germany"
+  employer         : "Helmholtz Munich"
+  uri              : "https://hcai-munich.com/"
+  email            : "alexander.kipnis@helmholtz-munich.de" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
