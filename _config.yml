@@ -22,11 +22,11 @@ repository               : "adkipnis/adkipnis.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : ""
+  name             : # name
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Data Science @ Helmholtz Munich"
-  location         : ""
-  employer         : ""
+  bio              : "PhD Student in Data Science"
+  location         : # location
+  employer         : "Helmholtz Munich"
   uri              : "https://hcai-munich.com/"
   email            : "alexander.kipnis@helmholtz-munich.de" 
 
