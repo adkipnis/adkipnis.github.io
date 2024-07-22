@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : ""
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Data Science"
-  location         : "Germany"
-  employer         : "Helmholtz Munich"
+  bio              : "PhD Student in Data Science @ Helmholtz Munich"
+  location         : ""
+  employer         : ""
   uri              : "https://hcai-munich.com/"
   email            : "alexander.kipnis@helmholtz-munich.de" 
 
