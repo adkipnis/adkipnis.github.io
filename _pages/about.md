@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I have a background in psychology & neuroscience (Heidelberg University & LMU Munich) as well as in statistics & machine learning (LMU Munich & Tübingen University) and like hacking away at large datasets. In my research, I'm interested in the intersection of machine and human intelligence, especially in the form of inductive inference and deep reinforcement learning.
+I have a background in *psychology & neuroscience* (Heidelberg University & LMU Munich) as well as in *statistics & machine learning* (LMU Munich & Tübingen University) and like hacking away at large datasets. In my research, I'm interested in the intersection of *machine and human intelligence*, especially in the form of inductive inference and deep reinforcement learning.
 
 My PhD is funded by the [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) and the [Helmholtz Institute for Human-Centered AI](https://hcai-munich.com/).
 
