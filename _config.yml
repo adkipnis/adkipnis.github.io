@@ -21,13 +21,13 @@ repository               : "adkipnis/adkipnis.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.png"
+  avatar           : "me.jpeg"
   name             : # name
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Data Science"
   location         : # location
   employer         : "Helmholtz Munich"
-  uri              : "https://hcai-munich.com/"
+  uri              : # url
   email            : "alexander.kipnis@helmholtz-munich.de" 
 
   # Academic websites
