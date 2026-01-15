@@ -8,8 +8,6 @@ redirect_from:
 ---
 I have a background in cognitive neuroscience (Heidelberg University & LMU Munich) and in statistics & machine learning (LMU Munich & Tübingen University). In my research I'm focused on crossing-pollinating stats and ML to make either more efficient. 
 
-Buzzwords: Simulation-based inference, Bayesian data analysis, latent variable modeling.
-
 My PhD is funded by the [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) and the [Helmholtz Institute for Human-Centered AI](https://hcai-munich.com/).
 
 Publications
