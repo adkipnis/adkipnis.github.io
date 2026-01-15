@@ -2,5 +2,3 @@
 main:
  - title: "CV"
     url: /files/cv.pdf
- - title: "Fun"
-    url: /fun/
