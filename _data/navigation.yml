@@ -1,3 +1,6 @@
 # main links links
 main:
-
+ - title: "Curriculum Vitae"
+    url: /cv/
+ - title: "Fun"
+    url: /fun/
