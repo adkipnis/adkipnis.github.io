@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I have a background in cognitive neuroscience (Heidelberg University & LMU Munich), and in statistics & machine learning (LMU Munich & Tübingen University). In my research I'm focused on crossing-pollinating stats and ML to make either more efficient. 
+Hi! I'm PhD Student in Data Science at Helmholtz Munich. I have a background in cognitive neuroscience (Heidelberg University & LMU Munich) and in statistics & machine learning (LMU Munich & Tübingen University). In my research I'm focused on crossing-pollinating stats and ML to make either more efficient. 
 
 Buzzwords: Simulation-based inference, Bayesian data analysis, latent variable modeling.
 
