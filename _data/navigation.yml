@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
- - title: "Fun"
-    url: /pages/fun.md
+  - title: "Fun"
+    url: /fun/
