@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a Data Science PhD student with a background in cognitive neuroscience (Heidelberg University & LMU Munich) and in statistics & machine learning (LMU Munich & Tübingen University).
+I'm a Data Science PhD student with [Eric Schulz](https://scholar.google.com/citations?user=74Cj5GYAAAAJ&hl=en). My backgrounds are cognitive neuroscience (Heidelberg University & LMU Munich) and statistics & machine learning (LMU Munich & Tübingen University).
 
 In my research I cross methods in stats and ML to make either more efficient. My interests include Bayesian data analysis, hierarchical and latent variable modeling, as well as simulation-based inference.
 
