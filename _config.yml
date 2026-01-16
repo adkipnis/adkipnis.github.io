@@ -24,7 +24,7 @@ author:
   avatar           : "me.jpeg"
   name             : # name
   pronouns         : # example: "she/her"
-  bio              : "PhD Student in Data Science"
+  bio              : #"PhD Student in Data Science"
   location         : "Munich, Germany" # location
   employer         : # location
   uri              : # url
