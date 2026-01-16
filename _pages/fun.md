@@ -5,7 +5,7 @@ permalink: /fun/
 nav_order: 4   # optional, controls tab order
 ---
 
-Here's a list of fun facts about me in no particular order.
+Here's a list of fun facts about me in no particular order:
 
 - my favorite fragrance note is myrrh
 - the last three concerts I visited were by *OG Keemo*, *Godspeed You! Black Emperor*, and some jazz ensemble whose name I forgot
