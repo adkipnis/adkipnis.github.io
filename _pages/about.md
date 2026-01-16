@@ -8,7 +8,7 @@ redirect_from:
 ---
 I'm a Data Science PhD student with a background in cognitive neuroscience (Heidelberg University & LMU Munich) and in statistics & machine learning (LMU Munich & Tübingen University).
 
-In my research I crossing-pollinate stats and ML to make either more efficient. My interests include Bayesian data analysis, hierarchical and latent variable modeling, as well as simulation-based inference.
+In my research I cross methods in stats and ML to make either more efficient. My interests include Bayesian data analysis, hierarchical and latent variable modeling, as well as simulation-based inference.
 
 My PhD is funded by the [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) and the [Helmholtz Institute for Human-Centered AI](https://hcai-munich.com/).
 
