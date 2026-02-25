@@ -64,3 +64,12 @@
 .author__avatar--hover:hover .author__avatar-img--hover {
   opacity: 1;
 }
+
+/* CV embedding */
+.cv-embed object,
+.cv-embed iframe {
+  width: 100%;
+  height: min(1100px, 85vh);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
