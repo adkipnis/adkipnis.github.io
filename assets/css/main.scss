@@ -39,3 +39,28 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Hover avatar swap */
+.author__avatar--hover {
+  position: relative;
+}
+
+.author__avatar--hover .author__avatar-img--hover {
+  position: absolute;
+  inset: 0;              /* top/right/bottom/left: 0 */
+  opacity: 0;
+  transition: opacity 180ms ease-in-out;
+}
+
+/* Ensure both images have same geometry */
+.author__avatar--hover .author__avatar-img--default,
+.author__avatar--hover .author__avatar-img--hover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* On hover, show the hover image */
+.author__avatar--hover:hover .author__avatar-img--hover {
+  opacity: 1;
+}
