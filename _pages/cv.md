@@ -7,11 +7,13 @@ redirect_from:
   - /resume
 ---
 
-<div class="cv-embed">
-  <object data="/files/cv.pdf" type="application/pdf" width="100%" height="800">
-    <p>
-      Your browser can’t display PDFs inline.
-      <a href="/files/cv.pdf">Download the CV (PDF)</a>.
-    </p>
-  </object>
-</div>
+<iframe
+  src="https://docs.google.com/gview?url=https://adkipnis.github.io/files/cv.pdf&embedded=true"
+  style="width: 100%; height: 900px;"
+  frameborder="0"
+  title="Curriculum Vitae PDF"
+></iframe>
+
+<p>
+  <a href="https://adkipnis.github.io/files/cv.pdf">Download CV (PDF)</a>
+</p>
