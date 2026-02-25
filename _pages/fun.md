@@ -13,3 +13,4 @@ Here's a list of fun facts about me in no particular order:
 - I love rewriting the lyrics to German rap songs and remaking them with Suno AI
 - my favorite book is *Le petit prince* by Antoine de Saint-Exupéry
 - I beat Elden Ring (twice)
+- neovim > Zed > cursor > VS Code, change my mind.
