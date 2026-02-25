@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 <div class="cv-embed">
-  <object data="/files/cv.pdf" type="application/pdf" width="100%" height="800">
+  <object data="/files/cv.pdf" type="application/pdf">
     <p>
-      Your browser can’t display PDFs inline.
+      Can’t display inline.
       <a href="/files/cv.pdf">Download the CV (PDF)</a>.
     </p>
   </object>
