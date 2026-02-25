@@ -7,11 +7,16 @@ redirect_from:
   - /resume
 ---
 
-<div class="cv-embed">
-  <object data="/files/cv.pdf" type="application/pdf" width="100%" height="100">
-    <p>
-      Your browser can’t display PDFs inline.
-      <a href="/files/cv.pdf">Download the CV (PDF)</a>.
-    </p>
-  </object>
+<div style="max-width:900px;margin:0 auto;">
+  <iframe
+    src="{{ '/files/cv.pdf' | relative_url }}"
+    width="100%"
+    height="900"
+    style="border:1px solid #ddd;"
+    aria-label="Curriculum Vitae (PDF)">
+  </iframe>
+
+  <p>
+    If the PDF does not display, <a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">open or download the CV (PDF)</a>.
+  </p>
 </div>
