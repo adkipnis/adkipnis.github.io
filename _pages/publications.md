@@ -5,12 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+- **Alex Kipnis**, Marcel Binz, Eric Schulz (2026). [metabeta - A fast neural model for Bayesian mixed-effects regression](https://arxiv.org/abs/2510.07473). *arXiv*. [Code](https://github.com/adkipnis/metabeta).
+- **Alex Kipnis**, Konstantinos Voudouris, Luca M. Schulze Buschoff, Eric Schulz (2025). [metabench - A sparse benchmark of reasoning and knowledge in Large Language Models](https://openreview.net/forum?id=4T33izzFpK). *ICLR 2025*. [Poster](https://iclr.cc/media/PosterPDFs/ICLR%202025/31009.png?t=1745250340.3707366), [Code](https://github.com/adkipnis/metabench).
+- Marcel Binz, ..., **Alex Kipnis**, ..., Eric Schulz (2025). [A foundation model to predict and capture human cognition](https://www.nature.com/articles/s41586-025-09215-4). *Nature*.
+- Heiko Schütt, **Alex Kipnis**, Jörn Diedrichsen, Nikolaus Kriegeskorte (2023). [Statistical inference on representational geometries](https://doi.org/10.7554/eLife.82566). *eLife*. [Code](https://github.com/adkipnis/fmri-simulations).
