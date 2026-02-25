@@ -5,7 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-- **Alex Kipnis**, Marcel Binz, Eric Schulz (2026). [metabeta - A fast neural model for Bayesian mixed-effects regression](https://arxiv.org/abs/2510.07473). *arXiv*. [Code](https://github.com/adkipnis/metabeta).
-- **Alex Kipnis**, Konstantinos Voudouris, Luca M. Schulze Buschoff, Eric Schulz (2025). [metabench - A sparse benchmark of reasoning and knowledge in Large Language Models](https://openreview.net/forum?id=4T33izzFpK). *ICLR 2025*. [Poster](https://iclr.cc/media/PosterPDFs/ICLR%202025/31009.png?t=1745250340.3707366), [Code](https://github.com/adkipnis/metabench).
-- Marcel Binz, ..., **Alex Kipnis**, ..., Eric Schulz (2025). [A foundation model to predict and capture human cognition](https://www.nature.com/articles/s41586-025-09215-4). *Nature*.
-- Heiko Schütt, **Alex Kipnis**, Jörn Diedrichsen, Nikolaus Kriegeskorte (2023). [Statistical inference on representational geometries](https://doi.org/10.7554/eLife.82566). *eLife*. [Code](https://github.com/adkipnis/fmri-simulations).
+- Konstantinos Voudouris, Mirko Thalmann, **Alex Kipnis**, José Hernández-Orallo, Eric Schulz (2026). *Measuring what AI systems might do: Towards a measurement science in AI*. [Preprint](https://philsci-archive.pitt.edu/28232/).
+- **Alex Kipnis**, Marcel Binz, Eric Schulz (2026). *metabeta - A fast neural model for Bayesian mixed-effects regression*. [Preprint](https://arxiv.org/abs/2510.07473). [Code](https://github.com/adkipnis/metabeta).
+- **Alex Kipnis**, Konstantinos Voudouris, Luca M. Schulze Buschoff, Eric Schulz (2025). *metabench - A sparse benchmark of reasoning and knowledge in Large Language Models*. [ICLR 2025](https://openreview.net/forum?id=4T33izzFpK). [Poster](https://iclr.cc/media/PosterPDFs/ICLR%202025/31009.png?t=1745250340.3707366). [Code](https://github.com/adkipnis/metabench).
+- Marcel Binz, ..., **Alex Kipnis**, ..., Eric Schulz (2025). *A foundation model to predict and capture human cognition*. [Nature](https://www.nature.com/articles/s41586-025-09215-4). [Code](https://github.com/marcelbinz/Llama-3.1-Centaur-70B)
+- Heiko Schütt, **Alex Kipnis**, Jörn Diedrichsen, Nikolaus Kriegeskorte (2023). *Statistical inference on representational geometries*. [eLife](https://doi.org/10.7554/eLife.82566). [Code](https://github.com/adkipnis/fmri-simulations).
