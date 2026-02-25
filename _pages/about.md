@@ -14,7 +14,9 @@ My PhD is funded by the [German Academic Scholarship Foundation](https://www.stu
 
 Main Projects
 ======
-- **Alex Kipnis**, Marcel Binz, Eric Schulz (2026). [metabeta - A fast neural model for Bayesian mixed-effects regression](https://arxiv.org/abs/2510.07473). *arXiv*. [Code](https://github.com/adkipnis/metabeta).
-  TL;DR: _Classic mixed-effects regression is the gold standard tool for scientific analysis of clustered data. The Bayesian version allows incorporating prior knowledge and quantifies uncertainty, but is computationally slow and at times unstable. Metabeta is a neural model that approximates MCMC-based parameter estimation at a small fraction of computation time._
-- **Alex Kipnis**, Konstantinos Voudouris, Luca M. Schulze Buschoff, Eric Schulz (2025). [metabench - A sparse benchmark of reasoning and knowledge in Large Language Models](https://openreview.net/forum?id=4T33izzFpK). *ICLR 2025*. [Poster](https://iclr.cc/media/PosterPDFs/ICLR%202025/31009.png?t=1745250340.3707366), [Code](https://github.com/adkipnis/metabench).
-- Heiko Schütt, **Alex Kipnis**, Jörn Diedrichsen, Nikolaus Kriegeskorte (2023). [Statistical inference on representational geometries](https://doi.org/10.7554/eLife.82566). *eLife*. [Code](https://github.com/adkipnis/fmri-simulations).
+**Alex Kipnis**, Marcel Binz, Eric Schulz (2026). [metabeta - A fast neural model for Bayesian mixed-effects regression](https://arxiv.org/abs/2510.07473). *arXiv*. [Code](https://github.com/adkipnis/metabeta).
+> Classic mixed-effects regression is the gold standard tool for scientific analysis of clustered data. The Bayesian version allows incorporating prior knowledge and quantifies uncertainty, but is computationally slow and at times unstable. Metabeta is a neural model that approximates MCMC-based parameter estimation at a small fraction of computation time.
+
+**Alex Kipnis**, Konstantinos Voudouris, Luca M. Schulze Buschoff, Eric Schulz (2025). [metabench - A sparse benchmark of reasoning and knowledge in Large Language Models](https://openreview.net/forum?id=4T33izzFpK). *ICLR 2025*. [Poster](https://iclr.cc/media/PosterPDFs/ICLR%202025/31009.png?t=1745250340.3707366), [Code](https://github.com/adkipnis/metabench).
+
+Heiko Schütt, **Alex Kipnis**, Jörn Diedrichsen, Nikolaus Kriegeskorte (2023). [Statistical inference on representational geometries](https://doi.org/10.7554/eLife.82566). *eLife*. [Code](https://github.com/adkipnis/fmri-simulations).
