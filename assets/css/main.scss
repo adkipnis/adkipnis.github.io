@@ -66,10 +66,8 @@
 }
 
 /* CV embedding */
-.cv-embed object,
-.cv-embed iframe {
+.cv-embed object {
   width: 100%;
-  height: min(1100px, 85vh);
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  height: 85vh;          /* adapt to screen height */
+  border: 0;
 }
