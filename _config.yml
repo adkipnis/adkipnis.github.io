@@ -26,9 +26,7 @@ author:
   pronouns         : # example: "she/her"
   bio              : #"PhD Student in Data Science"
   location         : # location
-  employer         : 
-      name: "Human-Centered AI" # location
-      url: "https://hcai-munich.com/"
+  employer         : '<a href="https://hcai-munich.com/" target="_blank" rel="noopener">Human-Centered AI</a>'
   uri              : # url
   email            : "adkipnis@mailbox.org" 
 
