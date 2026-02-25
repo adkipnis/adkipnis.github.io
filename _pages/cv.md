@@ -7,4 +7,11 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="/files/cv.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<div class="cv-embed">
+  <object data="/files/cv.pdf" type="application/pdf" width="100%" height="800">
+    <p>
+      Your browser can’t display PDFs inline.
+      <a href="/files/cv.pdf">Download the CV (PDF)</a>.
+    </p>
+  </object>
+</div>
