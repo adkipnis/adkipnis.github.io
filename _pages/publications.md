@@ -14,4 +14,4 @@ author_profile: true
 - **Alex Kipnis**, Tilman Stephani, Vadim Nikulin (2019). *Dynamic somatosensory perception and the role of pre-stimulus oscillatory activity*. [Neuro-Cognitive Psychology Symposium]().
 - **Alex Kipnis**, Anna Lena Biel, Paul Sauseng (2019). *Decoding the neural signal of uncertainty in template matching during visual search*. [Neuro-Cognitive Psychology Symposium]().
 - **Alex Kipnis**, Anna-Lena Schubert (2018). *Exploratory analysis of convergence between decomposed ERPs and drift-diffusion model parameters*. [MindBrainBody Symposium]().
-- Jan Göttmann, **Alex, Kipnis**, Gidon Frischkorn, Anna-Lena Schubert (2018). *Drifting through the noise: A diffusion model analysis of the interplay between processing and storage in working memory*. [TEAP](https://doi.org/10.13140/RG.2.2.20959.92325).
+- Jan Göttmann, **Alex, Kipnis**, Gidon Frischkorn, Anna-Lena Schubert (2018). *Drifting through the noise: A diffusion model analysis of the interplay between processing and storage in working memory*. TEAP. [Poster]({{ '/files/teap-poster.pdf' | relative_url }}).
