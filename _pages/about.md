@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**Background**. I'm a Data Science PhD student with [Eric Schulz](https://scholar.google.com/citations?user=74Cj5GYAAAAJ&hl=en) at [Human-Centered AI](https://hcai-munich.com/). My backgrounds are cognitive neuroscience (Heidelberg University & LMU Munich) and statistics & machine learning (LMU Munich & Tübingen University).
+**Background**. I'm a Data Science PhD student with [Eric Schulz](https://scholar.google.com/citations?user=74Cj5GYAAAAJ&hl=en) at [Human-Centered AI](https://hcai-munich.com/). I have studied cognitive neuroscience (Heidelberg University & LMU Munich) and statistics & machine learning (LMU Munich & Tübingen University).
 
 **Research**. I combine methods in statistics and machine learning to make either more efficient. My interests include Bayesian data analysis, hierarchical and latent variable modeling, as well as simulation-based inference.
 
