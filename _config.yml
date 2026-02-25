@@ -29,7 +29,7 @@ author:
   employer         : 
       name: "Human-Centered AI" # location
       url: "https://hcai-munich.com/"
-  uri              : "https://hcai-munich.com/" # url
+  uri              : # url
   email            : "adkipnis@mailbox.org" 
 
   # Academic websites
