@@ -16,7 +16,7 @@ My PhD is funded by the [German Academic Scholarship Foundation](https://www.stu
 
 Main Projects
 ======
-**Alex Kipnis**, Marcel Binz, Eric Schulz (2026). *metabeta - A fast neural model for Bayesian mixed-effects regression*. [preprint](https://arxiv.org/abs/2510.07473). [Code](https://github.com/adkipnis/metabeta).
+**Alex Kipnis**, Marcel Binz, Eric Schulz (2026). *metabeta - A fast neural model for Bayesian mixed-effects regression*. [Preprint](https://arxiv.org/abs/2510.07473). [Code](https://github.com/adkipnis/metabeta).
 > Classic mixed-effects regression is the gold standard tool for scientific analysis of clustered data. The Bayesian version allows incorporating prior knowledge and quantifies uncertainty, but is computationally slow and at times unstable. Metabeta is a neural model that approximates MCMC-based parameter estimation at a small fraction of computation time.
 
 **Alex Kipnis**, Konstantinos Voudouris, Luca M. Schulze Buschoff, Eric Schulz (2025). *metabench - A sparse benchmark of reasoning and knowledge in Large Language Models*. [ICLR 2025](https://openreview.net/forum?id=4T33izzFpK). [Poster](https://iclr.cc/media/PosterPDFs/ICLR%202025/31009.png?t=1745250340.3707366). [Code](https://github.com/adkipnis/metabench).
