@@ -11,8 +11,8 @@ Here's a list of fun facts about me in no particular order:
 - I love rewriting lyrics of German rap songs and remaking them with Suno AI
 - I can (probably still) do a heelflip on a skateboard
 - My favorite book is *Le petit prince* by Antoine de Saint-Exupéry
-- ~~I beat Elden Ring (twice)~~ I totally never spent time on videogames
-- NeoVim > Zed > Cursor > VS Code, change my mind.
+- ~~I beat Elden Ring (twice)~~ I totally never spent time on gaming
+- NeoVim > Zed > Cursor > VS Code, change my mind
 
 --- 
 
