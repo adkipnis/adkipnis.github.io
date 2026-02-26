@@ -14,3 +14,22 @@ Here's a list of fun facts about me in no particular order:
 - my favorite book is *Le petit prince* by Antoine de Saint-Exupéry
 - I beat Elden Ring (twice)
 - neovim > Zed > cursor > VS Code, change my mind.
+
+<div class="fun-frame">
+  <img id="fun-random-img" alt="Something fun">
+  <div id="fun-caption" class="fun-caption"></div>
+</div>
+
+<script>
+  // Update this list whenever you add/remove images:
+  const funImages = [
+    { src: "/images/chart.png", caption: "some of the music that I hold dearly" },
+  ];
+
+  const pick = funImages[Math.floor(Math.random() * funImages.length)];
+  const img = document.getElementById("fun-random-img");
+  const cap = document.getElementById("fun-caption");
+
+  img.src = pick.src;
+  cap.textContent = pick.caption || "";
+</script>
