@@ -29,7 +29,6 @@ Here's a list of fun facts about me in no particular order:
 
   <figure class="fun-lightbox__content" role="dialog" aria-modal="true" aria-label="Fun photo">
     <img id="fun-lightbox-img" alt="">
-    <figcaption id="fun-lightbox-caption" class="fun-lightbox__caption"></figcaption>
   </figure>
 </div>
 
@@ -47,11 +46,9 @@ Here's a list of fun facts about me in no particular order:
 
   (function () {
     const sourceImg = document.getElementById("fun-random-img");
-    const sourceCap = document.getElementById("fun-caption");
 
     const lb = document.getElementById("fun-lightbox");
     const lbImg = document.getElementById("fun-lightbox-img");
-    const lbCap = document.getElementById("fun-lightbox-caption");
 
     if (!sourceImg || !lb || !lbImg) return;
 
@@ -76,8 +73,8 @@ Here's a list of fun facts about me in no particular order:
       if (e.target && e.target.hasAttribute("data-fun-lightbox-close")) closeLightbox();
     });
 
-    document.addEventListener("keydown", (e) => {
-      if (!lb.hidden && e.key === "Escape") closeLightbox();
+    document.addEventListener("click", (e) => {
+      if (!lb.hidden && e.target) closeLightbox();
     });
   })();
 </script>
