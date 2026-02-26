@@ -14,6 +14,7 @@
 
 <script>
   const funImages = [
+    /* { src: "/images/chart.webp", caption: "Some of the music I hold dearly (in no particular order)." }, */
     { src: "/images/annunciation.webp", caption: "Da Vinci, L. (1476). Annunciazione." },
     { src: "/images/horsemen.webp", caption: "Dürer, A. (1498). Die vier apokalyptischen Reiter." },
     { src: "/images/ritter.webp", caption: "Dürer, A. (1513). Ritter, Tod und Teufel." },
@@ -27,18 +28,19 @@
   const pick = funImages[Math.floor(Math.random() * funImages.length)];
   const img = document.getElementById("fun-random-img");
   const cap = document.getElementById("fun-caption");
+
   img.src = pick.src;
-  cap.textContent = pick.caption || "";
+  cap.textContent = pick.caption || ""; 
 
   (function () {
     const sourceImg = document.getElementById("fun-random-img");
     const lb = document.getElementById("fun-lightbox");
     const lbImg = document.getElementById("fun-lightbox-img");
-    if (!lb || !lbImg) return;
+    if (!sourceImg || !lb || !lbImg) return;
 
-    function openLightboxWithSrc(src, alt) {
-      lbImg.src = src;
-      lbImg.alt = alt || "Image";
+    function openLightbox() {
+      lbImg.src = sourceImg.currentSrc || sourceImg.src;
+      lbImg.alt = sourceImg.alt || "Fun photo";
       lb.hidden = false;
       document.documentElement.classList.add("fun-lightbox-open");
     }
@@ -49,25 +51,9 @@
       lbImg.src = "";
     }
 
-    if (sourceImg) {
-      sourceImg.style.cursor = "zoom-in";
-      sourceImg.addEventListener("click", () => {
-        openLightboxWithSrc(sourceImg.currentSrc || sourceImg.src, sourceImg.alt || "Fun photo");
-      });
-    }
-
-    // Intercept any link with .js-open-lightbox and open in the SAME lightbox
-    document.querySelectorAll("a.js-open-lightbox").forEach((a) => {
-      a.addEventListener("click", (e) => {
-        e.preventDefault();
-        const href = a.getAttribute("href");
-        if (!href) return;
-        openLightboxWithSrc(href, a.textContent.trim() || "Image");
-      });
-    });
-
-    lb.addEventListener("click", closeLightbox);
-
+    sourceImg.style.cursor = "zoom-in";
+    sourceImg.addEventListener("click", openLightbox);
+    lb.addEventListener("click", () => closeLightbox());
     document.addEventListener("keydown", (e) => {
       if (!lb.hidden && e.key === "Escape") closeLightbox();
     });
