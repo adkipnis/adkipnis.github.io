@@ -1,20 +1,5 @@
-<!-- image gallery -->
-<div class="fun-frame">
-  <img id="fun-random-img" alt="Something fun">
-  <div id="fun-caption" class="fun-caption"></div>
-</div>
-
-<div id="fun-lightbox" class="fun-lightbox" hidden>
-  <div class="fun-lightbox__backdrop" id="fun-lightbox-nav"></div>
-  <figure class="fun-lightbox__content" role="dialog" aria-modal="true" aria-label="Fun photo">
-    <img id="fun-lightbox-img" alt="">
-  </figure>
-</div>
-
-
 <script>
   const funImages = [
-    /* { src: "/images/chart.webp", caption: "Some of the music I hold dearly (in no particular order)." }, */
     { src: "/images/annunciation.webp", caption: "Da Vinci, L. (1476). Annunciazione." },
     { src: "/images/horsemen.webp", caption: "Dürer, A. (1498). Die vier apokalyptischen Reiter." },
     { src: "/images/ritter.webp", caption: "Dürer, A. (1513). Ritter, Tod und Teufel." },
@@ -28,16 +13,13 @@
   const pick = funImages[Math.floor(Math.random() * funImages.length)];
   const img = document.getElementById("fun-random-img");
   const cap = document.getElementById("fun-caption");
-
   img.src = pick.src;
-  cap.textContent = pick.caption || ""; 
+  cap.textContent = pick.caption || "";
 
   (function () {
     const sourceImg = document.getElementById("fun-random-img");
     const lb = document.getElementById("fun-lightbox");
     const lbImg = document.getElementById("fun-lightbox-img");
-    const chartLink = document.getElementById("open-chart-lightbox");
-
     if (!lb || !lbImg) return;
 
     function openLightboxWithSrc(src, alt) {
@@ -45,11 +27,6 @@
       lbImg.alt = alt || "Image";
       lb.hidden = false;
       document.documentElement.classList.add("fun-lightbox-open");
-    }
-
-    function openLightboxFromFrame() {
-      if (!sourceImg) return;
-      openLightboxWithSrc(sourceImg.currentSrc || sourceImg.src, sourceImg.alt || "Fun photo");
     }
 
     function closeLightbox() {
@@ -60,17 +37,22 @@
 
     if (sourceImg) {
       sourceImg.style.cursor = "zoom-in";
-      sourceImg.addEventListener("click", openLightboxFromFrame);
-    }
-
-    if (chartLink) {
-      chartLink.addEventListener("click", (e) => {
-        e.preventDefault();
-        openLightboxWithSrc("/images/chart.png", "Music chart");
+      sourceImg.addEventListener("click", () => {
+        openLightboxWithSrc(sourceImg.currentSrc || sourceImg.src, sourceImg.alt || "Fun photo");
       });
     }
 
-    lb.addEventListener("click", () => closeLightbox());
+    // Intercept any link with .js-open-lightbox and open in the SAME lightbox
+    document.querySelectorAll("a.js-open-lightbox").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const href = a.getAttribute("href");
+        if (!href) return;
+        openLightboxWithSrc(href, a.textContent.trim() || "Image");
+      });
+    });
+
+    lb.addEventListener("click", closeLightbox);
 
     document.addEventListener("keydown", (e) => {
       if (!lb.hidden && e.key === "Escape") closeLightbox();
