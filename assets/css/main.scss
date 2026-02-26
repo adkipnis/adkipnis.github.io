@@ -70,8 +70,9 @@
   max-width: 720px;
   margin: 24px auto 0;
   padding: 12px;
-  border: 1px solid rgba(0,0,0,0.12);
-  border-radius: 12px;           /* slightly rounded */
+  border: none;
+  /* border: 1px solid rgba(0,0,0,0.12);
+  /* border-radius: 12px;           /* slightly rounded */
   background: rgba(255,255,255,0.6);
   overflow: hidden;              /* KEY: clip contents to rounded corners */
 }
