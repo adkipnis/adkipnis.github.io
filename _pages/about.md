@@ -12,7 +12,7 @@ redirect_from:
 
 **Personal**. Based in Munich & Berlin. Beside research, I enjoy music nerdism, fragrance hunting, and tea sipping.
 
-**Funding**. My PhD is funded by the [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) and the [Helmholtz Institute for Human-Centered AI](https://hcai-munich.com/).
+**Funding**. My PhD is funded by the [German Academic Scholarship Foundation](https://en.wikipedia.org/wiki/Studienstiftung) and the Helmholtz Institute for Human-Centered AI.
 
 ---
 
