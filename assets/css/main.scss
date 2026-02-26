@@ -64,3 +64,27 @@
 .author__avatar--hover:hover .author__avatar-img--hover {
   opacity: 1;
 }
+
+/* photo collage */
+.fun-frame {
+  max-width: 720px;
+  margin: 24px auto 0;
+  padding: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 12px;           /* slightly rounded */
+  background: rgba(255,255,255,0.6);
+}
+
+.fun-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;           /* round the image corners too */
+}
+
+.fun-caption {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  text-align: center;
+}
