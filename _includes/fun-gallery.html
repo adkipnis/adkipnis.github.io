@@ -5,7 +5,9 @@
 </div>
 
 <div id="fun-lightbox" class="fun-lightbox" hidden>
-  <div class="fun-lightbox__backdrop"></div>
+  <!-- click left/right half to navigate; clicking image closes -->
+  <div class="fun-lightbox__backdrop fun-lightbox__nav" id="fun-lightbox-nav"></div>
+
   <figure class="fun-lightbox__content" role="dialog" aria-modal="true" aria-label="Fun photo">
     <img id="fun-lightbox-img" alt="">
   </figure>
@@ -21,25 +23,35 @@
     { src: "/images/don.webp", caption: "Doré, G. (1863). Don Quichotte dans sa bibliothèque." },
     { src: "/images/escher.webp", caption: "Böcklin, A. (1883). Die Toteninsel (3rd Version)." },
     { src: "/images/ntbr.webp", caption: "Magritte, R. (1937). La reproduction interdite." },
-    { src: "/images/escher.webp", caption: "Escher, M. C. (1953). Relativity." },
+    { src: "/images/escher.webp", caption: "Escher, M. C. (1953). Relativity." }
   ];
 
-  const pick = funImages[Math.floor(Math.random() * funImages.length)];
   const img = document.getElementById("fun-random-img");
   const cap = document.getElementById("fun-caption");
 
-  img.src = pick.src;
-  cap.textContent = pick.caption || ""; 
+  const lb = document.getElementById("fun-lightbox");
+  const lbImg = document.getElementById("fun-lightbox-img");
+  const lbNav = document.getElementById("fun-lightbox-nav");
 
-  (function () {
-    const sourceImg = document.getElementById("fun-random-img");
-    const lb = document.getElementById("fun-lightbox");
-    const lbImg = document.getElementById("fun-lightbox-img");
-    if (!sourceImg || !lb || !lbImg) return;
+  if (!img || !cap || !lb || !lbImg || !lbNav || funImages.length === 0) {
+    // nothing to do
+  } else {
+    let index = Math.floor(Math.random() * funImages.length);
+
+    function renderFrame(i) {
+      const item = funImages[i];
+      img.src = item.src;
+      cap.textContent = item.caption || "";
+    }
+
+    function renderLightbox(i) {
+      const item = funImages[i];
+      lbImg.src = item.src;
+      lbImg.alt = item.caption || "Fun photo";
+    }
 
     function openLightbox() {
-      lbImg.src = sourceImg.currentSrc || sourceImg.src;
-      lbImg.alt = sourceImg.alt || "Fun photo";
+      renderLightbox(index);
       lb.hidden = false;
       document.documentElement.classList.add("fun-lightbox-open");
     }
@@ -50,11 +62,46 @@
       lbImg.src = "";
     }
 
-    sourceImg.style.cursor = "zoom-in";
-    sourceImg.addEventListener("click", openLightbox);
-    lb.addEventListener("click", () => closeLightbox());
-    document.addEventListener("keydown", (e) => {
-      if (!lb.hidden && e.key === "Escape") closeLightbox();
+    function next() {
+      index = (index + 1) % funImages.length;
+      renderFrame(index);
+      if (!lb.hidden) renderLightbox(index);
+    }
+
+    function prev() {
+      index = (index - 1 + funImages.length) % funImages.length;
+      renderFrame(index);
+      if (!lb.hidden) renderLightbox(index);
+    }
+
+    // Initial render
+    renderFrame(index);
+
+    // Hints (cursor)
+    img.style.cursor = "zoom-in";
+    lbImg.style.cursor = "zoom-out";
+
+    // Open lightbox from thumbnail
+    img.addEventListener("click", openLightbox);
+
+    // Click left/right half of the (grey) backdrop to navigate
+    lbNav.addEventListener("click", (e) => {
+      if (lb.hidden) return;
+      const x = e.clientX;
+      const w = window.innerWidth;
+      if (x < w / 2) prev();
+      else next();
     });
-  })();
+
+    // Click the image to close (keeps backdrop clicks for navigation)
+    lbImg.addEventListener("click", closeLightbox);
+
+    // Keyboard hints: Esc closes; arrows navigate
+    document.addEventListener("keydown", (e) => {
+      if (lb.hidden) return;
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowRight") next();
+      if (e.key === "ArrowLeft") prev();
+    });
+  }
 </script>
