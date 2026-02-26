@@ -1,3 +1,17 @@
+<!-- image gallery -->
+<div class="fun-frame">
+  <img id="fun-random-img" alt="Something fun">
+  <div id="fun-caption" class="fun-caption"></div>
+</div>
+
+<div id="fun-lightbox" class="fun-lightbox" hidden>
+  <div class="fun-lightbox__backdrop" id="fun-lightbox-nav"></div>
+  <figure class="fun-lightbox__content" role="dialog" aria-modal="true" aria-label="Fun photo">
+    <img id="fun-lightbox-img" alt="">
+  </figure>
+</div>
+
+
 <script>
   const funImages = [
     { src: "/images/annunciation.webp", caption: "Da Vinci, L. (1476). Annunciazione." },
