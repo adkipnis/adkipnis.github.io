@@ -21,7 +21,6 @@ Here's a list of fun facts about me in no particular order:
 </div>
 
 <script>
-  // Update this list whenever you add/remove images:
   const funImages = [
     { src: "/images/chart.png", caption: "some of the music that I hold dearly" },
   ];
