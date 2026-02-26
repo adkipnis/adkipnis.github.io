@@ -46,18 +46,14 @@ Here's a list of fun facts about me in no particular order:
 
   (function () {
     const sourceImg = document.getElementById("fun-random-img");
-    const sourceCap = document.getElementById("fun-caption");
-
     const lb = document.getElementById("fun-lightbox");
     const lbImg = document.getElementById("fun-lightbox-img");
-    const lbCap = document.getElementById("fun-lightbox-caption");
 
     if (!sourceImg || !lb || !lbImg) return;
 
     function openLightbox() {
       lbImg.src = sourceImg.currentSrc || sourceImg.src;
       lbImg.alt = sourceImg.alt || "Fun photo";
-      lbCap.textContent = sourceCap ? sourceCap.textContent : "";
       lb.hidden = false;
       document.documentElement.classList.add("fun-lightbox-open");
     }
@@ -71,10 +67,10 @@ Here's a list of fun facts about me in no particular order:
     sourceImg.style.cursor = "zoom-in";
     sourceImg.addEventListener("click", openLightbox);
 
-    lb.addEventListener("click", (e) => {
-      if (e.target && e.target.hasAttribute("data-fun-lightbox-close")) closeLightbox();
-    });
+    // Any click while open closes it
+    lb.addEventListener("click", () => closeLightbox());
 
+    // Optional: keep Esc close too
     document.addEventListener("keydown", (e) => {
       if (!lb.hidden && e.key === "Escape") closeLightbox();
     });
