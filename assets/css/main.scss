@@ -162,3 +162,27 @@
 .fun-lightbox-open {
   overflow: hidden;
 }
+
+/* Lightbox navigation cursor hints */
+.fun-lightbox__nav {
+  cursor: pointer;
+}
+
+/* Left half: previous */
+.fun-lightbox__nav {
+  cursor: w-resize;
+}
+.fun-lightbox__nav:hover {
+  cursor: w-resize;
+}
+
+/* Use a gradient overlay to subtly hint left/right (optional) */
+.fun-lightbox__nav {
+  background:
+    linear-gradient(90deg,
+      rgba(255,255,255,0.06) 0%,
+      rgba(255,255,255,0.00) 35%,
+      rgba(255,255,255,0.00) 65%,
+      rgba(255,255,255,0.06) 100%
+    );
+}
