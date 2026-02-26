@@ -73,13 +73,16 @@
   border: 1px solid rgba(0,0,0,0.12);
   border-radius: 12px;           /* slightly rounded */
   background: rgba(255,255,255,0.6);
+  overflow: hidden;              /* KEY: clip contents to rounded corners */
 }
 
 .fun-frame img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 10px;           /* round the image corners too */
+
+  /* If Minimal Mistakes applies other border-radius rules, this forces yours */
+  border-radius: 10px !important;
 }
 
 .fun-caption {
