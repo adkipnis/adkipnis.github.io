@@ -176,13 +176,44 @@
   cursor: w-resize;
 }
 
-/* Use a gradient overlay to subtly hint left/right (optional) */
-.fun-lightbox__nav {
-  background:
-    linear-gradient(90deg,
-      rgba(255,255,255,0.06) 0%,
-      rgba(255,255,255,0.00) 35%,
-      rgba(255,255,255,0.00) 65%,
-      rgba(255,255,255,0.06) 100%
-    );
+/* fun-frame layout with arrows */
+.fun-frame {
+  display: grid;
+  grid-template-columns: 28px 1fr 28px;
+  gap: 10px;
+  align-items: center;
+  max-width: 720px;
+  margin: 24px auto 0;
+  padding: 0; /* arrows sit outside the media; adjust if you want */
+}
+
+/* Keep your existing rounded/clip styles on the media container */
+.fun-media {
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.6);
+  overflow: hidden;
+}
+
+/* arrows */
+.fun-arrow {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.08);
+  color: rgba(0,0,0,0.7);
+  font-size: 16px;
+  line-height: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fun-arrow:hover {
+  background: rgba(0,0,0,0.14);
+}
+
+.fun-arrow:focus-visible {
+  outline: 2px solid rgba(0,0,0,0.35);
+  outline-offset: 2px;
 }
