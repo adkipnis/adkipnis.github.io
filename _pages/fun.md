@@ -34,3 +34,13 @@ Here's a list of fun facts about me in no particular order:
   img.src = pick.src;
   cap.textContent = pick.caption || "";
 </script>
+
+<!-- Lightbox overlay (once per page) -->
+<div id="fun-lightbox" class="fun-lightbox" hidden>
+  <div class="fun-lightbox__backdrop" data-fun-lightbox-close></div>
+
+  <figure class="fun-lightbox__content" role="dialog" aria-modal="true" aria-label="Fun photo">
+    <img id="fun-lightbox-img" alt="">
+    <figcaption id="fun-lightbox-caption" class="fun-lightbox__caption"></figcaption>
+  </figure>
+</div>
