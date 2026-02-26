@@ -163,16 +163,3 @@
   overflow: hidden;
 }
 
-/* Lightbox navigation cursor hints */
-.fun-lightbox__nav {
-  cursor: pointer;
-}
-
-/* Left half: previous */
-.fun-lightbox__nav {
-  cursor: w-resize;
-}
-.fun-lightbox__nav:hover {
-  cursor: w-resize;
-}
-
