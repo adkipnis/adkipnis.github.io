@@ -16,6 +16,4 @@ Here's a list of fun facts about me in no particular order:
 - NeoVim > Zed > Cursor > VS Code, change my mind
 
 --- 
-
-Ghiblified art (refresh for a new draw)
 {% include fun-gallery.html %}
