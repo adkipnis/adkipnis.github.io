@@ -36,13 +36,20 @@
     const sourceImg = document.getElementById("fun-random-img");
     const lb = document.getElementById("fun-lightbox");
     const lbImg = document.getElementById("fun-lightbox-img");
-    if (!sourceImg || !lb || !lbImg) return;
+    const chartLink = document.getElementById("open-chart-lightbox");
 
-    function openLightbox() {
-      lbImg.src = sourceImg.currentSrc || sourceImg.src;
-      lbImg.alt = sourceImg.alt || "Fun photo";
+    if (!lb || !lbImg) return;
+
+    function openLightboxWithSrc(src, alt) {
+      lbImg.src = src;
+      lbImg.alt = alt || "Image";
       lb.hidden = false;
       document.documentElement.classList.add("fun-lightbox-open");
+    }
+
+    function openLightboxFromFrame() {
+      if (!sourceImg) return;
+      openLightboxWithSrc(sourceImg.currentSrc || sourceImg.src, sourceImg.alt || "Fun photo");
     }
 
     function closeLightbox() {
@@ -51,9 +58,20 @@
       lbImg.src = "";
     }
 
-    sourceImg.style.cursor = "zoom-in";
-    sourceImg.addEventListener("click", openLightbox);
+    if (sourceImg) {
+      sourceImg.style.cursor = "zoom-in";
+      sourceImg.addEventListener("click", openLightboxFromFrame);
+    }
+
+    if (chartLink) {
+      chartLink.addEventListener("click", (e) => {
+        e.preventDefault();
+        openLightboxWithSrc("/images/chart.png", "Music chart");
+      });
+    }
+
     lb.addEventListener("click", () => closeLightbox());
+
     document.addEventListener("keydown", (e) => {
       if (!lb.hidden && e.key === "Escape") closeLightbox();
     });
