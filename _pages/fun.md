@@ -29,7 +29,6 @@ Here's a list of fun facts about me in no particular order:
 
   <figure class="fun-lightbox__content" role="dialog" aria-modal="true" aria-label="Fun photo">
     <img id="fun-lightbox-img" alt="">
-    <figcaption id="fun-lightbox-caption" class="fun-lightbox__caption"></figcaption>
   </figure>
 </div>
 
