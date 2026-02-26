@@ -15,6 +15,8 @@ Here's a list of fun facts about me in no particular order:
 - I beat Elden Ring (twice)
 - neovim > Zed > cursor > VS Code, change my mind.
 
+--- 
+
 <div class="fun-frame">
   <img id="fun-random-img" alt="Something fun">
   <div id="fun-caption" class="fun-caption"></div>
