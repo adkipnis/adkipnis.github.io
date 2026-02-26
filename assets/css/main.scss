@@ -85,9 +85,27 @@
   border-radius: 10px !important;
 }
 
+/* caption smaller */
 .fun-caption {
   margin-top: 10px;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   opacity: 0.85;
   text-align: center;
+}
+
+/* hover zoom effect */
+.fun-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px !important;
+
+  transform: scale(1);
+  transition: transform 180ms ease-in-out; /* smooth zoom */
+  will-change: transform;
+}
+
+/* when hovering over the frame (or image), zoom the image */
+.fun-frame:hover img {
+  transform: scale(1.05); /* try 1.03–1.10 */
 }
