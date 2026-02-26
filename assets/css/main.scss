@@ -107,5 +107,52 @@
 
 /* when hovering over the frame (or image), zoom the image */
 .fun-frame:hover img {
-  transform: scale(1.2);
+  transform: scale(1.03);
+}
+
+/* Lightbox */
+.fun-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
+
+.fun-lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 30, 30, 0.75); /* greyed out */
+}
+
+.fun-lightbox__content {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.fun-lightbox__content img {
+  max-width: min(1100px, 92vw);
+  max-height: 82vh;
+  width: auto;
+  height: auto;
+
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+  background: #fff;
+}
+
+.fun-lightbox__caption {
+  margin-top: 12px;
+  text-align: center;
+  color: rgba(255,255,255,0.9);
+  font-size: 0.85rem;
+}
+
+/* Prevent background scroll while open */
+.fun-lightbox-open {
+  overflow: hidden;
 }
