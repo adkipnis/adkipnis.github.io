@@ -51,18 +51,13 @@ Here's a list of fun facts about me in no particular order:
     const lb = document.getElementById("fun-lightbox");
     const lbImg = document.getElementById("fun-lightbox-img");
     const lbCap = document.getElementById("fun-lightbox-caption");
-    const backdrop = lb ? lb.querySelector(".fun-lightbox__backdrop") : null;
 
-    if (!sourceImg || !lb || !lbImg || !lbCap || !backdrop) return;
+    if (!sourceImg || !lb || !lbImg) return;
 
-    function openLightbox(e) {
-      // Prevent the opening click from also triggering any "close" click handlers
-      if (e) e.stopPropagation();
-
+    function openLightbox() {
       lbImg.src = sourceImg.currentSrc || sourceImg.src;
       lbImg.alt = sourceImg.alt || "Fun photo";
-      lbCap.textContent = sourceCap ? (sourceCap.textContent || "") : "";
-
+      lbCap.textContent = sourceCap ? sourceCap.textContent : "";
       lb.hidden = false;
       document.documentElement.classList.add("fun-lightbox-open");
     }
@@ -73,15 +68,13 @@ Here's a list of fun facts about me in no particular order:
       lbImg.src = "";
     }
 
-    // Open on click
     sourceImg.style.cursor = "zoom-in";
     sourceImg.addEventListener("click", openLightbox);
 
-    // Close on click (when opened): click backdrop (grey area) OR the enlarged image
-    backdrop.addEventListener("click", closeLightbox);
-    lbImg.addEventListener("click", closeLightbox);
+    lb.addEventListener("click", (e) => {
+      if (e.target && e.target.hasAttribute("data-fun-lightbox-close")) closeLightbox();
+    });
 
-    // Close on Esc
     document.addEventListener("keydown", (e) => {
       if (!lb.hidden && e.key === "Escape") closeLightbox();
     });
