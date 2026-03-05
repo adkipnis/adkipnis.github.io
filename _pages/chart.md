@@ -20,7 +20,7 @@ permalink: /mu/
 
 <script>
   const funImages = [
-    { src: "/images/chart.webp", caption: "The albums are in no particular order." },
+    { src: "/images/chart.webp", caption: "The albums are in no particular order either 🦦" },
   ];
 
   const pick = funImages[Math.floor(Math.random() * funImages.length)];
