@@ -1,0 +1,602 @@
+{
+  "https://agnesobel.bandcamp.com/album/citizen-of-glass": {
+    "title": "Citizen Of Glass, by Agnes Obel",
+    "description": "10 track album",
+    "site": "agnesobel.bandcamp.com",
+    "domain": "agnesobel.bandcamp.com",
+    "icon": "/assets/favicons/agnesobel.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:12.960Z"
+  },
+  "https://animalsasleaders.bandcamp.com/album/animals-as-leaders": {
+    "title": "Animals As Leaders, by Animals As Leaders",
+    "description": "12 track album",
+    "site": "animalsasleaders.bandcamp.com",
+    "domain": "animalsasleaders.bandcamp.com",
+    "icon": "/assets/favicons/animalsasleaders.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:13.809Z"
+  },
+  "https://arxiv.org/abs/2510.07473": {
+    "title": "metabeta -- A fast neural model for Bayesian mixed-effects regression",
+    "description": "Hierarchical data with multiple observations per group is ubiquitous in empirical sciences and is often analyzed using mixed-effects regression. In such models, Bayesian inference gives an estimate of uncertainty but is…",
+    "site": "arXiv",
+    "domain": "arxiv.org",
+    "icon": "/assets/favicons/arxiv.org.png",
+    "fetchedAt": "2026-09-22T08:08:37.350Z"
+  },
+  "https://arxiv.org/abs/2603.00063": {
+    "title": "Measuring What AI Systems Might Do: Towards A Measurement Science in AI",
+    "description": "Scientists, policy-makers, business leaders, and members of the public care about what modern artificial intelligence systems are disposed to do. Yet terms such as capabilities, propensities, skills, values, and abiliti…",
+    "site": "arXiv",
+    "domain": "arxiv.org",
+    "icon": "/assets/favicons/arxiv.org.png",
+    "fetchedAt": "2026-09-22T08:08:37.387Z"
+  },
+  "https://arxiv.org/abs/2609.24422": {
+    "title": "Prior-Amortized In-Context Bayesian Inference for Generalized Linear Mixed-Effects Models",
+    "description": "Hierarchical data is ubiquitous in the empirical sciences and is most commonly analyzed with generalized linear mixed-effects models (GLMMs). Bayesian inference for GLMMs yields calibrated uncertainty but requires MCMC;…",
+    "site": "arXiv",
+    "domain": "arxiv.org",
+    "icon": "/assets/favicons/arxiv.org.png",
+    "fetchedAt": "2026-09-22T08:08:37.426Z"
+  },
+  "https://badbadnotgoodofficial.bandcamp.com/album/bbng2": {
+    "title": "BBNG2, by BADBADNOTGOOD",
+    "description": "11 track album",
+    "site": "badbadnotgoodofficial.bandcamp.com",
+    "domain": "badbadnotgoodofficial.bandcamp.com",
+    "icon": "/assets/favicons/badbadnotgoodofficial.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:14.496Z"
+  },
+  "https://beachhouse.bandcamp.com/album/bloom": {
+    "title": "Bloom, by Beach House",
+    "description": "10 track album",
+    "site": "beachhouse.bandcamp.com",
+    "domain": "beachhouse.bandcamp.com",
+    "icon": "/assets/favicons/beachhouse.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:15.565Z"
+  },
+  "https://centurymedia.bandcamp.com/album/one-deluxe-edition": {
+    "title": "One (Deluxe Edition), by TesseracT",
+    "description": "13 track album",
+    "site": "centurymedia.bandcamp.com",
+    "domain": "centurymedia.bandcamp.com",
+    "icon": "/assets/favicons/centurymedia.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:16.839Z"
+  },
+  "https://cigarettesaftersex.bandcamp.com/album/cigarettes-after-sex": {
+    "title": "Cigarettes After Sex, by Cigarettes After Sex",
+    "description": "10 track album",
+    "site": "cigarettesaftersex.bandcamp.com",
+    "domain": "cigarettesaftersex.bandcamp.com",
+    "icon": "/assets/favicons/cigarettesaftersex.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:17.373Z"
+  },
+  "https://deafheavens.bandcamp.com/album/sunbather-2": {
+    "title": "Sunbather, by Deafheaven",
+    "description": "7 track album",
+    "site": "deafheavens.bandcamp.com",
+    "domain": "deafheavens.bandcamp.com",
+    "icon": "/assets/favicons/deafheavens.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:18.202Z"
+  },
+  "https://doi.org/10.5281/ZENODO.4305949": {
+    "title": "StatProofBook/StatProofBook.github.io: StatProofBook 2025",
+    "description": "The Book of Statistical Proofs, as of 2025 Release Date: December 30, 2025 – browse repository at this point in time Statistics: 11 Authors – 225 Definitions – 520 Proofs – 745 Items in total – 813 PDF pages Links: Webs…",
+    "site": "DOI",
+    "domain": "doi.org",
+    "icon": "/assets/favicons/doi.org.png",
+    "fetchedAt": "2026-09-22T08:08:38.104Z"
+  },
+  "https://doi.org/10.7554/eLife.82566": {
+    "title": "Statistical inference on representational geometries",
+    "description": "New methods for statistical inference in representational similarity analysis were developed, tested thoroughly, and are made available in an open-source Python toolbox.",
+    "site": "DOI",
+    "domain": "doi.org",
+    "icon": "/assets/favicons/doi.org.png",
+    "fetchedAt": "2026-09-22T08:08:38.384Z"
+  },
+  "https://en.wikipedia.org/wiki/Generalized_linear_mixed_model": {
+    "title": "Generalized linear mixed model",
+    "description": "In statistics, a generalized linear mixed model (GLMM) is an extension to the generalized linear model (GLM) in which the linear predictor contains random effects in addition to the usual fixed effects. They also inheri…",
+    "site": "Wikipedia",
+    "domain": "en.wikipedia.org",
+    "icon": "/assets/favicons/en.wikipedia.org.png",
+    "fetchedAt": "2026-09-22T08:08:38.614Z"
+  },
+  "https://en.wikipedia.org/wiki/Studienstiftung_des_deutschen_Volkes": {
+    "title": "Studienstiftung des deutschen Volkes",
+    "description": "The German Academic Scholarship Foundation is Germany's largest and most prestigious scholarship foundation. According to its statutes, it supports \"the university education of young people who, on account of their exce…",
+    "site": "Wikipedia",
+    "domain": "en.wikipedia.org",
+    "icon": "/assets/favicons/en.wikipedia.org.png",
+    "fetchedAt": "2026-09-22T08:08:38.743Z"
+  },
+  "https://fleetfoxes.bandcamp.com/album/fleet-foxes": {
+    "title": "Fleet Foxes, by Fleet Foxes",
+    "description": "11 track album",
+    "site": "fleetfoxes.bandcamp.com",
+    "domain": "fleetfoxes.bandcamp.com",
+    "icon": "/assets/favicons/fleetfoxes.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:19.096Z"
+  },
+  "https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/metabench": {
+    "title": "EleutherAI/lm-evaluation-harness",
+    "description": "A framework for few-shot evaluation of language models.",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:39.046Z"
+  },
+  "https://github.com/adkipnis": {
+    "title": "adkipnis",
+    "description": "PhD Researcher in Bayesian ML. Tea sipper in the spare time.",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:39.255Z"
+  },
+  "https://github.com/adkipnis/Somatosensory-Consciousness-MVPA": {
+    "title": "adkipnis/Somatosensory-Consciousness-MVPA",
+    "description": "Research project at the MPI for Human Cognitive and Brain Sciences",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:39.505Z"
+  },
+  "https://github.com/adkipnis/fmri-simulations": {
+    "title": "adkipnis/fmri-simulations",
+    "description": "fMRI simulations for pyrsa testing",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:39.753Z"
+  },
+  "https://github.com/adkipnis/metabench": {
+    "title": "adkipnis/metabench",
+    "description": "A principled reduction of six benchmarks from the Open LLM Leaderboard to a single sparse benchmark.",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:40.008Z"
+  },
+  "https://github.com/adkipnis/metabeta": {
+    "title": "adkipnis/metabeta",
+    "description": "A PyTorch implementation of amortized Bayesian GLMMs",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:40.242Z"
+  },
+  "https://github.com/adkipnis/scamd": {
+    "title": "adkipnis/scamd",
+    "description": "Tabular Data Simulation with Structural Causal Models",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:40.459Z"
+  },
+  "https://github.com/marcelbinz/Llama-3.1-Centaur-70B": {
+    "title": "marcelbinz/Llama-3.1-Centaur-70B",
+    "description": "",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:40.690Z"
+  },
+  "https://github.com/rsagroup/rsatoolbox": {
+    "title": "rsagroup/rsatoolbox",
+    "description": "Python library for Representational Similarity Analysis",
+    "site": "GitHub",
+    "domain": "github.com",
+    "icon": "/assets/favicons/github.com.png",
+    "fetchedAt": "2026-09-22T08:08:40.909Z"
+  },
+  "https://godspeedyoublackemperor.bandcamp.com/album/f-a": {
+    "title": "F# A# ∞, by Godspeed You Black Emperor!",
+    "description": "3 track album",
+    "site": "godspeedyoublackemperor.bandcamp.com",
+    "domain": "godspeedyoublackemperor.bandcamp.com",
+    "icon": "/assets/favicons/godspeedyoublackemperor.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:19.846Z"
+  },
+  "https://godspeedyoublackemperor.bandcamp.com/album/lift-your-skinny-fists-like-antennas-to-heaven": {
+    "title": "Lift Your Skinny Fists Like Antennas To Heaven, by Godspeed You Black Emperor!",
+    "description": "4 track album",
+    "site": "godspeedyoublackemperor.bandcamp.com",
+    "domain": "godspeedyoublackemperor.bandcamp.com",
+    "icon": "/assets/favicons/godspeedyoublackemperor.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:20.506Z"
+  },
+  "https://godspeedyoublackemperor.bandcamp.com/album/slow-riot-for-new-zero-kanada": {
+    "title": "Slow Riot for New Zero Kanada, by Godspeed You Black Emperor!",
+    "description": "2 track album",
+    "site": "godspeedyoublackemperor.bandcamp.com",
+    "domain": "godspeedyoublackemperor.bandcamp.com",
+    "icon": "/assets/favicons/godspeedyoublackemperor.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:21.168Z"
+  },
+  "https://godspeedyoublackemperor.bandcamp.com/album/yanqui-u-x-o": {
+    "title": "Yanqui U.X.O., by Godspeed You! Black Emperor",
+    "description": "5 track album",
+    "site": "godspeedyoublackemperor.bandcamp.com",
+    "domain": "godspeedyoublackemperor.bandcamp.com",
+    "icon": "/assets/favicons/godspeedyoublackemperor.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:21.776Z"
+  },
+  "https://hcai-munich.com/": {
+    "title": "Human-Centered AI",
+    "description": "",
+    "site": "Institute for Human-Centered AI",
+    "domain": "hcai-munich.com",
+    "icon": "/assets/favicons/hcai-munich.com.png",
+    "fetchedAt": "2026-09-22T08:08:41.112Z"
+  },
+  "https://huggingface.co/adkipnis/metabeta": {
+    "title": "adkipnis/metabeta · Hugging Face",
+    "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+    "site": "Hugging Face",
+    "domain": "huggingface.co",
+    "icon": "/assets/favicons/huggingface.co.png",
+    "fetchedAt": "2026-09-22T08:08:41.481Z"
+  },
+  "https://hybridbanduk.bandcamp.com/album/disappear-here": {
+    "title": "Disappear Here, by Hybrid",
+    "description": "12 track album",
+    "site": "hybridbanduk.bandcamp.com",
+    "domain": "hybridbanduk.bandcamp.com",
+    "icon": "/assets/favicons/hybridbanduk.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:22.754Z"
+  },
+  "https://iclr.cc/media/PosterPDFs/ICLR%202025/31009.png?t=1745250340.3707366": {
+    "title": "ICLR",
+    "description": "",
+    "site": "ICLR",
+    "domain": "iclr.cc",
+    "icon": "/assets/favicons/iclr.cc.png",
+    "fetchedAt": "2026-09-22T08:08:42.191Z"
+  },
+  "https://jaduheart.bandcamp.com/album/post-heaven": {
+    "title": "POST HEAVEN, by Jadu Heart",
+    "description": "12 track album",
+    "site": "jaduheart.bandcamp.com",
+    "domain": "jaduheart.bandcamp.com",
+    "icon": "/assets/favicons/jaduheart.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:23.570Z"
+  },
+  "https://kriegeskortelab.zuckermaninstitute.columbia.edu/": {
+    "title": "Kriegeskorte Lab",
+    "description": "",
+    "site": "Kriegeskorte Lab",
+    "domain": "kriegeskortelab.zuckermaninstitute.columbia.edu",
+    "icon": "/assets/favicons/kriegeskortelab.zuckermaninstitute.columbia.edu.png",
+    "fetchedAt": "2026-09-22T08:08:42.424Z"
+  },
+  "https://ladispute.bandcamp.com/album/somewhere-at-the-bottom-of-the-river-between-vega-and-altair": {
+    "title": "Somewhere at the Bottom of the River Between Vega and Altair, by La Dispute",
+    "description": "13 track album",
+    "site": "ladispute.bandcamp.com",
+    "domain": "ladispute.bandcamp.com",
+    "icon": "/assets/favicons/ladispute.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:24.203Z"
+  },
+  "https://lapalux.bandcamp.com/album/ruinism-1": {
+    "title": "Ruinism, by Lapalux",
+    "description": "12 track album",
+    "site": "lapalux.bandcamp.com",
+    "domain": "lapalux.bandcamp.com",
+    "icon": "/assets/favicons/lapalux.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:24.921Z"
+  },
+  "https://madvillain.bandcamp.com/album/madvillainy": {
+    "title": "Madvillainy, by Madvillain",
+    "description": "22 track album",
+    "site": "madvillain.bandcamp.com",
+    "domain": "madvillain.bandcamp.com",
+    "icon": "/assets/favicons/madvillain.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:25.556Z"
+  },
+  "https://ohdaughter.bandcamp.com/album/not-to-disappear": {
+    "title": "Not To Disappear, by Daughter",
+    "description": "11 track album",
+    "site": "ohdaughter.bandcamp.com",
+    "domain": "ohdaughter.bandcamp.com",
+    "icon": "/assets/favicons/ohdaughter.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:26.327Z"
+  },
+  "https://open.spotify.com/album/0aqZJlugIkTUWW1sa4BANp": {
+    "title": "Hot Rocks 1964-1971 - Compilation by The Rolling Stones | Spotify",
+    "description": "The Rolling Stones · compilation · 1971 · 21 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:26.488Z"
+  },
+  "https://open.spotify.com/album/1F8y2bg9V9nRoy8zuxo3Jt": {
+    "title": "Heligoland - Album by Massive Attack | Spotify",
+    "description": "Massive Attack · album · 2010 · 14 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:26.605Z"
+  },
+  "https://open.spotify.com/album/1ZFPXCVVVc7D5kxzwAHec8": {
+    "title": "The Ravel Edition - Compilation by Maurice Ravel | Spotify",
+    "description": "Maurice Ravel · compilation · 2012 · 234 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:26.700Z"
+  },
+  "https://open.spotify.com/album/1cCAb1vN8uUsdfEylVmTLs": {
+    "title": "The Infamous - Album by Mobb Deep | Spotify",
+    "description": "Mobb Deep · album · 1995 · 16 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:26.797Z"
+  },
+  "https://open.spotify.com/album/1n2ZaaFJU2b1cbmDYWHb8v": {
+    "title": "Arvo Pärt: Adam's Lament - Album by Arvo Pärt | Spotify",
+    "description": "Arvo Pärt · album · 2012 · 8 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:26.879Z"
+  },
+  "https://open.spotify.com/album/2NrYPcMmQBlbBxopc2XlzS": {
+    "title": "GLOW ON - Album by Turnstile | Spotify",
+    "description": "Turnstile · album · 2021 · 15 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:26.974Z"
+  },
+  "https://open.spotify.com/album/2OvGtCuPuWwfHEuKahKcHz": {
+    "title": "Mann Beisst Hund - Album by OG Keemo | Spotify",
+    "description": "OG Keemo · album · 2022 · 17 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.052Z"
+  },
+  "https://open.spotify.com/album/2XSjTk1Cs3tpKdYeUktZAt": {
+    "title": "2004 - Album by Skryptonite | Spotify",
+    "description": "Skryptonite · album · 2020 · 24 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.188Z"
+  },
+  "https://open.spotify.com/album/36j7xkJKwcxBkWwdVoTvI4": {
+    "title": "Enter The Wu-Tang-36 Chambers - Album by Wu-Tang Clan | Spotify",
+    "description": "Wu-Tang Clan · album · 1993 · 14 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.299Z"
+  },
+  "https://open.spotify.com/album/3LTVA25MzhU8ZR4evxxGMR": {
+    "title": "Rachmaninov: Piano Concertos Nos. 1-4 - Compilation by Sergei Rachmaninoff | Spotify",
+    "description": "Sergei Rachmaninoff · compilation · 1972 · 12 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.382Z"
+  },
+  "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf": {
+    "title": "Blonde - Album by Frank Ocean | Spotify",
+    "description": "Frank Ocean · album · 2016 · 17 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.466Z"
+  },
+  "https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR": {
+    "title": "Mezzanine - Album by Massive Attack | Spotify",
+    "description": "Massive Attack · album · 1998 · 11 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.558Z"
+  },
+  "https://open.spotify.com/album/4W6ztwnEbK92Arl8kI9c9N": {
+    "title": "A Different Kind Of Fix - Album by Bombay Bicycle Club | Spotify",
+    "description": "Bombay Bicycle Club · album · 2011 · 12 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.661Z"
+  },
+  "https://open.spotify.com/album/4hUevKZdIe9SCLneuunJZz": {
+    "title": "Quiet Is The New Loud - Album by Kings of Convenience | Spotify",
+    "description": "Kings of Convenience · album · 2001 · 12 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.748Z"
+  },
+  "https://open.spotify.com/album/4lqplMV1rg3H07rPdHsIii": {
+    "title": "Debussy: Complete Piano Works by Walter Gieseking (Remastered 2023) - Album by Claude Debussy | Spotify",
+    "description": "Claude Debussy · album · 2023 · 74 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.843Z"
+  },
+  "https://open.spotify.com/album/5SJjToXURR4hErW1goyDk7": {
+    "title": "Arvo Pärt: Tabula Rasa - Album by Arvo Pärt | Spotify",
+    "description": "Arvo Pärt · album · 1984 · 4 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:27.917Z"
+  },
+  "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK": {
+    "title": "In Rainbows - Album by Radiohead | Spotify",
+    "description": "Radiohead · album · 2007 · 10 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.011Z"
+  },
+  "https://open.spotify.com/album/60szvcndZTCqG9E7GSAplB": {
+    "title": "100th Window - Album by Massive Attack | Spotify",
+    "description": "Massive Attack · album · 2003 · 9 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.085Z"
+  },
+  "https://open.spotify.com/album/6DPdEaZ0KDBCCgXyy4q8bi": {
+    "title": "Buena Vista Social Club - Album by Buena Vista Social Club | Spotify",
+    "description": "Buena Vista Social Club · album · 1997 · 14 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.158Z"
+  },
+  "https://open.spotify.com/album/6GjwtEZcfenmOf6l18N7T7": {
+    "title": "Kid A - Album by Radiohead | Spotify",
+    "description": "Radiohead · album · 2000 · 11 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.264Z"
+  },
+  "https://open.spotify.com/album/6QAKD1wqCrmkBYw1AsZfEy": {
+    "title": "California - Album by Mr. Bungle | Spotify",
+    "description": "Mr. Bungle · album · 1999 · 10 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.357Z"
+  },
+  "https://open.spotify.com/album/6cI1XoZsOhkyrCwtuI70CN": {
+    "title": "The Smiths - Album by The Smiths | Spotify",
+    "description": "The Smiths · album · 1984 · 11 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.439Z"
+  },
+  "https://open.spotify.com/album/6k3vC8nep1BfqAIJ81L6OL": {
+    "title": "An Awesome Wave - Album by alt-J | Spotify",
+    "description": "alt-J · album · 2012 · 14 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.534Z"
+  },
+  "https://open.spotify.com/album/6nGvONPR7bY6at6ccJ87G3": {
+    "title": "Since I Left You - Album by The Avalanches | Spotify",
+    "description": "The Avalanches · album · 2001 · 18 songs",
+    "site": "Spotify",
+    "domain": "open.spotify.com",
+    "icon": "/assets/favicons/open.spotify.com.png",
+    "fetchedAt": "2026-09-22T08:59:28.640Z"
+  },
+  "https://orvillepeck.bandcamp.com/album/pony": {
+    "title": "Pony, by Orville Peck",
+    "description": "12 track album",
+    "site": "orvillepeck.bandcamp.com",
+    "domain": "orvillepeck.bandcamp.com",
+    "icon": "/assets/favicons/orvillepeck.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:29.747Z"
+  },
+  "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ebc26584810a189ef1e4f173aba4319-Abstract-Conference.html": {
+    "title": "metabench - A Sparse Benchmark of Reasoning and Knowledge in Large Language Models",
+    "description": "",
+    "site": "ICLR",
+    "domain": "proceedings.iclr.cc",
+    "icon": null,
+    "fetchedAt": "2026-09-22T08:08:43.565Z"
+  },
+  "https://pwelverumandsun.bandcamp.com/album/the-glow-pt-2": {
+    "title": "the Glow pt. 2, by the Microphones",
+    "description": "40 track album",
+    "site": "pwelverumandsun.bandcamp.com",
+    "domain": "pwelverumandsun.bandcamp.com",
+    "icon": "/assets/favicons/pwelverumandsun.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:30.948Z"
+  },
+  "https://pygmylush.bandcamp.com/album/old-friends-2": {
+    "title": "Old Friends, by Pygmy Lush",
+    "description": "12 track album",
+    "site": "pygmylush.bandcamp.com",
+    "domain": "pygmylush.bandcamp.com",
+    "icon": "/assets/favicons/pygmylush.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:31.601Z"
+  },
+  "https://scholar.google.com/citations?user=74Cj5GYAAAAJ": {
+    "title": "Eric Schulz",
+    "description": "Helmholtz Munich - 12.688-mal zitiert - Cognitive Science - Machine Learning - Computational Neuroscience - Large Language Models",
+    "site": "Google Scholar",
+    "domain": "scholar.google.com",
+    "icon": "/assets/favicons/scholar.google.com.png",
+    "fetchedAt": "2026-09-22T08:08:44.336Z"
+  },
+  "https://scholar.google.com/citations?user=jE2ViIsAAAAJ": {
+    "title": "Alex Kipnis",
+    "description": "PhD Student in Data Science, Helmholtz Munich - 581-mal zitiert - simulation-based inference - Bayesian data analysis - latent variable modeling",
+    "site": "Google Scholar",
+    "domain": "scholar.google.com",
+    "icon": "/assets/favicons/scholar.google.com.png",
+    "fetchedAt": "2026-09-22T08:08:44.494Z"
+  },
+  "https://secretvoice.bandcamp.com/album/collected": {
+    "title": "Collected, by Saetia",
+    "description": "22 track album",
+    "site": "secretvoice.bandcamp.com",
+    "domain": "secretvoice.bandcamp.com",
+    "icon": "/assets/favicons/secretvoice.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:32.246Z"
+  },
+  "https://statproofbook.github.io/": {
+    "title": "The Book of Statistical Proofs",
+    "description": "The Book of Statistical Proofs – a centralized, open and collaboratively edited archive of statistical theorems for the computational sciences",
+    "site": "statproofbook.github.io",
+    "domain": "statproofbook.github.io",
+    "icon": "/assets/favicons/statproofbook.github.io.png",
+    "fetchedAt": "2026-09-22T08:08:44.727Z"
+  },
+  "https://swans.bandcamp.com/album/white-light-from-the-mouth-of-infinity": {
+    "title": "White Light from the Mouth of Infinity, by SWANS",
+    "description": "13 track album",
+    "site": "swans.bandcamp.com",
+    "domain": "swans.bandcamp.com",
+    "icon": "/assets/favicons/swans.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:32.895Z"
+  },
+  "https://tkde.bandcamp.com/album/here-be-dragons": {
+    "title": "Here Be Dragons, by The Kilimanjaro Darkjazz Ensemble",
+    "description": "9 track album",
+    "site": "tkde.bandcamp.com",
+    "domain": "tkde.bandcamp.com",
+    "icon": "/assets/favicons/tkde.bandcamp.com.png",
+    "fetchedAt": "2026-09-22T08:59:33.529Z"
+  },
+  "https://www.linkedin.com/in/adkipnis": {
+    "title": "LinkedIn",
+    "description": "",
+    "site": "LinkedIn",
+    "domain": "www.linkedin.com",
+    "icon": "/assets/favicons/www.linkedin.com.png",
+    "fetchedAt": "2026-09-22T08:08:45.562Z"
+  },
+  "https://www.nature.com/articles/s41586-025-09215-4": {
+    "title": "A foundation model to predict and capture human cognition - Nature",
+    "description": "A computational model called Centaur, developed by fine-tuning a language model on a huge dataset called Psych-101, can predict and simulate human nature in experiments expressible in natural language, even in previousl…",
+    "site": "Nature",
+    "domain": "www.nature.com",
+    "icon": "/assets/favicons/www.nature.com.png",
+    "fetchedAt": "2026-09-22T08:08:46.397Z"
+  },
+  "https://www.researchgate.net/publication/331960269_RIDEing_Drifting_in_perceptual_decision_making_Exploratory_analysis_of_the_convergence_between_decomposed_ERPs_and_Drift-Diffusion_Model_parameters": {
+    "title": "ResearchGate",
+    "description": "",
+    "site": "ResearchGate",
+    "domain": "www.researchgate.net",
+    "icon": "/assets/favicons/www.researchgate.net.png",
+    "fetchedAt": "2026-09-22T08:08:46.484Z"
+  }
+}

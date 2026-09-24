@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alex Kipnis</title>
+<meta name="description" content="Alex Kipnis researches amortized Bayesian inference, hierarchical models and efficient LLM evaluation at Helmholtz Munich.">
+<meta property="og:title" content="Alex Kipnis">
+<meta property="og:description" content="Bayesian machine learning, statistical foundations and open-source research software.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://adkipnis.github.io/assets/me.jpeg">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://adkipnis.github.io/">
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+<script src="/assets/theme.js"></script>
+<link rel="preload" href="/assets/fonts/SourceSans3-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/SourceSans3-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    
+      <h1 class="site-name">Alex Kipnis</h1>
+    
+
+    <nav aria-label="Main navigation">
+      
+        <a href="/" aria-current="page">Research</a>
+      
+        <a href="/publications/" >Publications</a>
+      
+        <a href="/cv/" >CV</a>
+      
+        <a href="/fun/" >Fun</a>
+      
+    </nav>
+
+    <button class="theme-toggle" type="button" aria-label="Switch to night mode" title="Switch to night mode" hidden>
+      <svg class="icon-moon" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"/></svg>
+      <svg class="icon-sun" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="site-shell">
+  <main id="main" tabindex="-1"><section class="intro">
+  <div class="intro-portrait"><div class="portrait" tabindex="0" role="img" aria-label="Alex Kipnis drinking tea. Hover or focus to reveal the illustrated portrait.">
+  <img class="portrait-photo" src="/assets/me-420.jpeg"
+       srcset="/assets/me-210.jpeg 1x, /assets/me-420.jpeg 2x, /assets/me-630.jpeg 3x"
+       alt="" width="210" height="240" fetchpriority="high">
+  <img class="portrait-illustrated" src="/assets/me-hover-420.jpeg"
+       srcset="/assets/me-hover-210.jpeg 1x, /assets/me-hover-420.jpeg 2x, /assets/me-hover-630.jpeg 3x"
+       alt="" width="210" height="240" aria-hidden="true">
+</div>
+</div>
+  <div class="intro-copy">
+    <p class="intro-affiliation">
+      I'm a PhD researcher with
+      <a href="https://scholar.google.com/citations?user=74Cj5GYAAAAJ">Eric Schulz</a>
+      at the <a href="https://hcai-munich.com/">Institute for Human-Centered AI</a>.
+    </p>
+    <p class="intro-text">I develop amortized models for Bayesian inference on structured data and statistical methods for foundation-model evaluation. I build open-source research software.</p>
+    
+    <div class="text-links">
+  <a href="https://github.com/adkipnis">GitHub ↗</a><a href="https://scholar.google.com/citations?user=jE2ViIsAAAAJ">Scholar ↗</a><a href="https://www.linkedin.com/in/adkipnis">LinkedIn ↗</a><a href="mailto:adkipnis@mailbox.org">Collaborate ↗</a>
+</div>
+
+  </div>
+</section>
+
+<section aria-labelledby="featured">
+  <div class="section-heading"><h2 id="featured">Selected research</h2></div>
+  
+    <article class="project" id="metabeta">
+      <div class="project-meta">
+        <span>2026</span>
+        <span>Under review</span>
+      </div>
+      <div class="project-body">
+        <h3><code>metabeta</code></h3>
+        <p class="project-title">In-context Bayesian inference for hierarchical data.</p>
+        <p>Grouped tabular data is everywhere; <a href="https://en.wikipedia.org/wiki/Generalized_linear_mixed_model">GLMMs</a> allow statistical inference on it. Bayesian models incorporate prior knowledge and properly quantify uncertainty. But fitting them (repeatedly) with Hamiltonian Monte Carlo is expensive.</p>
+        <p>Our bespoke neural model combines Laplace approximation, Set Transformers, Neural Spline Flows, and Independence Metropolis-Hastings. It takes data, models and priors as in-context inputs, and samples from the full posterior.</p>
+        <p class="contribution"></p>
+        <div class="project-result">
+          <div class="metric">
+            <strong>10²–10³×</strong>
+            <span>faster than NUTS</span>
+            <small>median wall-clock time for data with up to 3,000 observations</small>
+          </div>
+          <p>Across controlled benchmarks and real datasets, metabeta closely matches NUTS in parameter recovery, calibration, posterior geometry, and out-of-sample prediction. This still holds in stress tests including misspecification, distribution shift, collinearity, and data-poor regimes.</p>
+        </div>
+        
+        <div class="text-links">
+  <a href="https://arxiv.org/abs/2609.24422">Paper ↗</a><a href="https://github.com/adkipnis/metabeta">Code ↗</a><a href="https://huggingface.co/adkipnis/metabeta">Weights ↗</a>
+</div>
+
+      </div>
+    </article>
+  
+    <article class="project" id="metabench">
+      <div class="project-meta">
+        <span>2025</span>
+        <span>ICLR 2025</span>
+      </div>
+      <div class="project-body">
+        <h3><code>metabench</code></h3>
+        <p class="project-title">Sparse LLM evaluation: asking the right set of questions.</p>
+        <p>Evaluating a language model on large benchmarks like MMLU takes thousands of responses. Many of those carry redundant information. We found a method for picking the most informative subset of questions for 6 widely used benchmarks.</p>
+        <p>We fit item-level responses from thousands of LLMs using Item Response Theory, separating item properties and model abilities. We then used Fisher-information filtering to select the most informative items along the ability spectrum. The latent-ability estimators from the resulting subsets turn out to be excellent for reconstructing the original benchmark scores.</p>
+        <p class="contribution"></p>
+        <div class="project-result">
+          <div class="metric">
+            <strong>&lt;3%</strong>
+            <span>of the original size</span>
+            <small>28,632 test items of the Open LLM Leaderboard</small>
+          </div>
+          <p>Our method recovers the held-out scores with a mean RMSE of 1.24% across 6 benchmarks (ARC, GSM8K, HellaSwag, MMLU, TruthfulQA, and WinoGrande). The joint score is reconstructed with an RMSE of 0.58%.</p>
+        </div>
+        
+        <div class="text-links">
+  <a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/4ebc26584810a189ef1e4f173aba4319-Abstract-Conference.html">Paper ↗</a><a href="https://github.com/adkipnis/metabench">Code ↗</a><a href="https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/metabench">Evaluation harness ↗</a>
+</div>
+
+      </div>
+    </article>
+  
+</section>
+
+<section class="more-research" aria-labelledby="more">
+  <div class="section-heading">
+    <h2 id="more">Further work</h2>
+    <a href="/publications/">All publications &rarr;</a>
+  </div>
+  <div class="additional-grid">
+    
+      <article>
+        <p class="eyebrow">Open-source research software</p>
+        <h3>scamd</h3>
+        <p>A standalone Python simulator that generates realistic synthetic tabular datasets for regression. It draws covariates from structural causal models (implemented as a random MLP or a sparse DAG). The pipeline then applies post-hoc transforms to produce mixed continuous, categorical and count features. Used in metabeta's simulator.</p>
+        
+        <div class="text-links">
+  <a href="https://github.com/adkipnis/scamd">Code ↗</a>
+</div>
+
+      </article>
+    
+      <article>
+        <p class="eyebrow">eLife · 2023</p>
+        <h3>Statistical inference on representational geometries</h3>
+        <p>How can comparisons of brain representations generalize to new people and stimuli? I validated RSA inference methods using fMRI simulations during my master's thesis in the <a href="https://kriegeskortelab.zuckermaninstitute.columbia.edu/">Kriegeskorte Lab</a> at Columbia University.</p>
+        
+        <div class="text-links">
+  <a href="https://doi.org/10.7554/eLife.82566">Paper ↗</a><a href="https://github.com/adkipnis/fmri-simulations">Code ↗</a><a href="https://github.com/rsagroup/rsatoolbox">Toolbox ↗</a>
+</div>
+
+      </article>
+    
+  </div>
+</section>
+
+<section class="background" aria-labelledby="background">
+  <div class="section-heading"><h2 id="background">A little background</h2></div>
+  <p>My path into machine learning began in cognitive neuroscience: psychology at Heidelberg University (with a thesis on EEG decomposition and drift-diffusion modeling). Neuro-cognitive psychology at LMU Munich (with a thesis on validating representational similarity analysis). Then I did a proper course on probability theory at the LMU and enjoyed it much more. I subsequently studied statistics, computer science, and machine learning. At the same time I started my doctoral research with Eric Schulz at the Max Planck Institute for Biological Cybernetics before the lab moved to Helmholtz Munich.</p>
+  <p>My doctoral work has been additionally supported by the <a href="https://en.wikipedia.org/wiki/Studienstiftung_des_deutschen_Volkes">German Academic Scholarship Foundation</a>.</p>
+  <p> <a href="/fun/">Beyond research &rarr;</a></p>
+</section>
+</main>
+</div>
+
+<footer>Last updated: <time datetime="2026-09-24">September 24, 2026</time></footer>
+<script src="/assets/link-preview.js" defer></script>
+</body>
+</html>
